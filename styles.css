@@ -1,0 +1,19 @@
+
+
+.container{
+    background-image: url(/imagenes/fondo\ abstract.jpg);
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+   }
+.avatar{
+    color:aliceblue;
+}
+main{
+    background-color: rgba(183, 126, 254, 0.835);
+}
+
+footer {
+    background-color:rgba(255, 27, 232, 0.51);
+}
+
