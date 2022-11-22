@@ -1,14 +1,21 @@
-
-
-.container{
-    background-image: url(/imagenes/fondo_abstract.jpg);
-    background-size: 100% auto;
-    background-position: center top;
+.banner{
+   background-image: url(/imagenes/fondo_abstract.jpg);
+    background-size: cover;
+    background-position: center ;
     background-repeat: no-repeat;
+    background-color: rgba(183, 126, 254, 0.835);
    }
-.avatar{
-    color:aliceblue;
-}
+
+.space{
+    height: 180px;    
+    color:rgba(183, 126, 254, 0.835))
+    }
+
+    
+.name{
+    margin-bottom: 10;
+   }
+
 main{
     background-color: rgba(183, 126, 254, 0.835);
 }
