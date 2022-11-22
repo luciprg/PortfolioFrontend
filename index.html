@@ -8,12 +8,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="styles.css">
-
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
-
+        
+        <link rel="stylesheet" href="styles.css">
 
         <link rel="icon" href="/imagenes/corazon.ico">
 
@@ -64,9 +63,9 @@
 
 <main>
 
-    <!--Acerca de-->
-    <section class="container text-center" >
-        <h3 class="pt-5">Acerca de:</h3>
+    <!--Sobre mi-->
+    <section class="container text-center py-5 mb-3">
+        <h3>Sobre mi:</h3>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis nostrum sapiente libero eum.
            Laboriosam totam deleniti cum quam excepturi rem consequuntur fuga explicabo aspernatur possimus! Dolore
           maiores voluptate porro. Aliquid!</p>
@@ -74,16 +73,27 @@
 
 
     <!--Skills-->
-        <section class="container">
-            <h3 class="pt-5">Skills</h3>
-            <P>Resoución de problemas</P>
-            <p>Diseño de Sistemas</p>
+        <section class="container py-5 mb-5">
+            <h3>Skills</h3>
+            <P>Resolución de problemas</P>
+
+
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" aria-label="Default striped example"  aria-valuemin="0" aria-valuemax="100" style="width: 60%" aria-valuenow="60">60%</div>
+              </div>
+            
+
+            <p class="pt-5">Diseño de Sistemas</p>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" aria-label="Default striped example"  aria-valuemin="0" aria-valuemax="100" style="width: 35%" aria-valuenow="35">35%</div>
+              </div>
+        
         </section>
 
 
         <!--Educación-->
-        <Section class="container">
-            <h3>Educación</h3>
+        <Section class="container  py-5 mb-5">
+            <h3 class="">Educación</h3>
             <P>
             <ul>
             <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique temporibus ea, nesciunt quis libero
@@ -91,6 +101,13 @@
             error voluptate.</li>
             </ul>
             <p>
+            <P>
+                <ul>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique temporibus ea, nesciunt quis libero
+                    accusamus cumque sunt numquam earum ducimus qui quidem autem at eos inventore cupiditate asperiores
+                    error voluptate.</li>
+                </ul>
+             <p>
         </section>
 
 
@@ -108,12 +125,15 @@
              <p>
         </Section>
 
-    </main>
 
         <!--Footer-->
-        <footer>
-            <p>Todos los derechos reservados &copy; Lucy </p>
-        </footer>
+        <footer class="text-center pb-1 pt-5">
+            <p>Built by <strong>Lucy</strong><span class="text-primary">&#128156;</span></p>
+            </footer>
+        
+
+    </main>
+
 
 
 
