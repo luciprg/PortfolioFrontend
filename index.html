@@ -1,115 +1,137 @@
-    <!DOCTYPE html>
-    <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
 
-    <head>
+<head>
 
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        
-        <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/6518885805.js" crossorigin="anonymous"></script>
 
-        <link rel="icon" href="/imagenes/corazon.ico">
+    <!---->
+    <link rel="stylesheet" href="styles.css">
 
-        <title>Mi Portfolio</title>
+    <link rel="icon" href="/imagenes/corazon.ico">
 
-    </head>
+    <title>Mi Portfolio</title>
+
+</head>
 
 
-    <body>
-        <!--Barra de Navegación-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
-            <a class="navbar-brand">
-                <img src="/imagenes/arg-prog.png" alt="logo de argentina programa" width="100" height="30">
+<body>
+    <!--Barra de Navegación-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black">
+        <a class="navbar-brand">
+            <img src="/imagenes/arg-prog.png" alt="logo de argentina programa" width="100" height="30">
+        </a>
+        <!--Botón menú-->
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Elementos del menú-->
+        <div class="collapse navbar-collapse" id="menu">
+            <a href="https://es-la.facebook.com" class="navbar nav ms-auto" target="_blank">
+                <img src="/imagenes/facebook-32.png" alt="facebook">
+            </a>
+            <a href="https://instagram.com" class="navbar" target="_blank">
+                <img src="/imagenes/instagram-32.png" alt="instagram">
+            </a>
+            <a href="https://twitter.com" class="navbar" target="_blank">
+                <img src="/imagenes/twitter-32.png" alt="twitter">
             </a>
 
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
-                <span class="navbar-toggler-icon"></span>
+            <button class="btn btn-outline-info" type="submit">
+                Login
             </button>
-
-            <div class="collapse navbar-collapse" id="menu">
-                <a href="https://es-la.facebook.com" class="navbar nav ms-auto" target="_blank">
-                    <img src="/imagenes/facebook-32.png" alt="facebook">
-                </a>
-                <a href="https://instagram.com" class="navbar" target="_blank">
-                    <img src="/imagenes/instagram-32.png" alt="instagram">
-                </a>                
-                <a href="https://twitter.com" class="navbar" target="_blank">
-                    <img src="/imagenes/twitter-32.png" alt="twitter">
-                </a>
-                
-                <button class="btn btn-outline-info" type="submit">
-                    Login
-                </button> 
-            </div>
-        </nav>
+        </div>
+    </nav>
 
     <header>
         <!--Banner-->
-        <div  class="banner">
+        <div class="banner">
             <div class="space"></div>
             <div class="d-flex align-items-center flex-column text-light">
-            <img class="avatar rounded-circle" src="/imagenes/avatar.jpg" alt="jpg">
-            <h2 class="name mt-3">Lucy Lalala</h2>
-            <h3 class="mt-2 mb-5">Full Stack Developer Jr.</h3>
+                <img class="avatar rounded-circle" src="/imagenes/avatar.jpg" alt="jpg">
+                <h2 class="name mt-3">Lucy Lalala</h2>
+                <h3 class="mt-2 mb-5">Full Stack Developer Jr.</h3>
             </div>
         </div>
     </header>
 
-<main>
+    <main>
 
-    <!--Sobre mi-->
-    <section class="container text-center py-5 mb-3">
-        <h3>Sobre mi:</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis nostrum sapiente libero eum.
-           Laboriosam totam deleniti cum quam excepturi rem consequuntur fuga explicabo aspernatur possimus! Dolore
-          maiores voluptate porro. Aliquid!</p>
-    </section>
+        <!--Sobre mi-->
+        <section class="container text-center py-5 mb-3">
+            <h3>Sobre mi:</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis nostrum sapiente libero eum.
+                Laboriosam totam deleniti cum quam excepturi rem consequuntur fuga explicabo aspernatur possimus! Dolore
+                maiores voluptate porro. Aliquid!</p>
+        </section>
 
 
-    <!--Skills-->
+        <!--Skills-->
         <section class="container py-5 mb-5">
+
             <h3>Skills</h3>
-            <P>Resolución de problemas</P>
-
-
+            <P class="pt-3">Resolución de problemas</P>
             <div class="progress">
-                <div class="progress-bar progress-bar-striped" role="progressbar" aria-label="Default striped example"  aria-valuemin="0" aria-valuemax="100" style="width: 60%" aria-valuenow="60">60%</div>
-              </div>
-            
+                <div class="progress-bar progress-bar-striped" role="progressbar" aria-label="Default striped example"
+                    aria-valuemin="0" aria-valuemax="100" style="width: 60%" aria-valuenow="60">60%</div>
+            </div>
 
             <p class="pt-5">Diseño de Sistemas</p>
             <div class="progress">
-                <div class="progress-bar progress-bar-striped" role="progressbar" aria-label="Default striped example"  aria-valuemin="0" aria-valuemax="100" style="width: 35%" aria-valuenow="35">35%</div>
-              </div>
-        
+                <div class="progress-bar progress-bar-striped" role="progressbar" aria-label="Default striped example"
+                    aria-valuemin="0" aria-valuemax="100" style="width: 35%" aria-valuenow="35">35%</div>
+            </div>
+
         </section>
+
+
+
+
+
+
+
+
+
 
 
         <!--Educación-->
         <Section class="container  py-5 mb-5">
-            <h3 class="">Educación</h3>
-            <P>
-            <ul>
-            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique temporibus ea, nesciunt quis libero
-            accusamus cumque sunt numquam earum ducimus qui quidem autem at eos inventore cupiditate asperiores
-            error voluptate.</li>
-            </ul>
-            <p>
-            <P>
-                <ul>
-                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique temporibus ea, nesciunt quis libero
+            <h3>Educación</h3>
+            <P class="mt-4">
+            <ul> 
+                <li> <h5>UBA ...</h5> 
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique temporibus ea, nesciunt quis
+                    libero
                     accusamus cumque sunt numquam earum ducimus qui quidem autem at eos inventore cupiditate asperiores
                     error voluptate.</li>
-                </ul>
-             <p>
+            </ul>
+            <p>
+            <P class="mt-4"> 
+            <ul>
+                <li><h5>Secundario...</h5> 
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique temporibus ea, nesciunt quis
+                    libero
+                    accusamus cumque sunt numquam earum ducimus qui quidem autem at eos inventore cupiditate asperiores
+                    error voluptate.</li>
+            </ul>
+            <p>
         </section>
 
+
+
+            
 
 
 
@@ -118,19 +140,20 @@
             <h3>Experiencia</h3>
             <P>
             <ul>
-                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique temporibus ea, nesciunt quis libero
-                 accusamus cumque sunt numquam earum ducimus qui quidem autem at eos inventore cupiditate asperiores
-                 error voluptate.</li>
+                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique temporibus ea, nesciunt quis
+                    libero
+                    accusamus cumque sunt numquam earum ducimus qui quidem autem at eos inventore cupiditate asperiores
+                    error voluptate.</li>
             </ul>
-             <p>
+            <p>
         </Section>
 
 
         <!--Footer-->
         <footer class="text-center pb-1 pt-5">
             <p>Built by <strong>Lucy</strong><span class="text-primary">&#128156;</span></p>
-            </footer>
-        
+        </footer>
+
 
     </main>
 
@@ -138,9 +161,9 @@
 
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-            crossorigin="anonymous"></script>
-    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
 
-    </html>
+</html>
