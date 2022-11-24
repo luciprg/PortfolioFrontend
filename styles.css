@@ -1,3 +1,12 @@
+/*//Styles //*/
+
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+/*//Header//*/
+
 .banner{
     background-image: url(/imagenes/fondo_abstract.jpg);
     background-size: cover;
@@ -6,21 +15,18 @@
     background-color: rgba(115, 4, 251, 0.835);
    }
 
-   body{
-    background-color: black;
-    color: aliceblue;
-}
 
 .space{
     height: 300px;    
     color:rgba(115, 4, 251, 0.835);
     }
 
+
 .name{
      margin-bottom: 10;
      }
-     
 
+/*//main//*/
 
 section{
     margin-bottom: 100px;
@@ -32,8 +38,6 @@ section{
     border-color: rgb(43, 205, 226);
 }
 
-
-
 .skill-tittle{
     margin-bottom: 2em;
     margin-top: 2em;
@@ -43,3 +47,4 @@ section{
 .progress{
     margin-bottom: 2em;
  }
+
