@@ -6,6 +6,10 @@
     background-color: rgba(115, 4, 251, 0.835);
    }
 
+   body{
+    background-color: black;
+    color: aliceblue;
+}
 
 .space{
     height: 300px;    
@@ -16,10 +20,7 @@
      margin-bottom: 10;
      }
      
-main{
-    background-color: black;
-    color: aliceblue;
-}
+
 
 section{
     margin-bottom: 100px;
@@ -31,12 +32,7 @@ section{
     border-color: rgb(43, 205, 226);
 }
 
-.skills{
-    border-radius: 20px;
-    border-style: dotted;
-    border-color: rgb(43, 205, 226);
 
-}
 
 .skill-tittle{
     margin-bottom: 2em;
