@@ -13,7 +13,7 @@
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     
     <!--Font awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
     <script src="https://kit.fontawesome.com/6518885805.js" crossorigin="anonymous"></script>
 
@@ -29,7 +29,7 @@
 
 <body>
     <!--Barra de Navegación-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
         <a class="navbar-brand">
             <img src="/imagenes/arg-prog.png" alt="logo de argentina programa" width="100" height="30">
         </a>
@@ -61,8 +61,8 @@
             <div class="space"></div>
             <div class="d-flex align-items-center flex-column text-light">
                 <img class="avatar rounded-circle" src="/imagenes/avatar.jpg" alt="jpg">
-                <h2 class="name mt-3">Lucy Lalala</h2>
-                <h3 class="mt-2 mb-5">Full Stack Developer Jr.</h3>
+                <h1 class="name mt-3">Lucy Lalala</h1>
+                <h2 class="mt-2 mb-5">Full Stack Developer Jr.</h2>
             </div>
         </div>
     </header>
@@ -70,7 +70,7 @@
     <main>
 
         <!--Sobre mi-->
-        <section class="container text-center py-5 mb-3">
+        <section class="container-fluid text-center py-5 mb-3">
             <h3>Sobre mi:</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis nostrum sapiente libero eum.
                 Laboriosam totam deleniti cum quam excepturi rem consequuntur fuga explicabo aspernatur possimus! Dolore
@@ -79,26 +79,111 @@
 
 
         <!--Skills-->
-        <section class="container py-5 mb-5">
-
-            <h3>Skills</h3>
-            <P class="pt-3">Resolución de problemas</P>
-            <div class="progress">
-                <div class="progress-bar progress-bar-striped" role="progressbar" aria-label="Default striped example"
-                    aria-valuemin="0" aria-valuemax="100" style="width: 60%" aria-valuenow="60">60%</div>
+        <section class="skills">
+            <div class="container text-center">
+                    <h3>Skills</h3>
             </div>
+                
+            <!--Frontend -->
+  
 
-            <p class="pt-5">Diseño de Sistemas</p>
-            <div class="progress">
-                <div class="progress-bar progress-bar-striped" role="progressbar" aria-label="Default striped example"
-                    aria-valuemin="0" aria-valuemax="100" style="width: 35%" aria-valuenow="35">35%</div>
+            <div class="row col-md-4">
+                <h3 class="skill-tittle">Front-End</h3></div>
+
+
+            <div class="row  justify-content-evenly ">
+
+                 <div class="frontend1 col-md-4">
+
+                    <h5 class="progress-tittle"><i class="fa-brands fa-html5"></i>  HTML</h5>
+                    <div class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-label="Default striped example"
+                        aria-valuemin="0" aria-valuemax="10" style="width: 60%" aria-valuenow="60">60%
+                    </div>      
+                    </div>
+                
+                    
+                    <h5 class="progress-tittle"><i class="fa-brands fa-css3-alt"></i> CSS</h5>
+                    <div class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-label="Default striped example"
+                        aria-valuemin="0" aria-valuemax="100" style="width: 60%" aria-valuenow="60">60%
+                    </div>  
+                    </div>       
+            
+
+                    <h5 class="progress-tittle"><i class="fa-brands fa-square-js"></i> JAVASCRIPT</h5>
+                    <div class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-label="Default striped example"
+                        aria-valuemin="0" aria-valuemax="100" style="width: 60%" aria-valuenow="60">60%
+                    </div>         
+                    </div>
+
+                </div>
+
+                <div class="frontend2 col-md-4 ">
+
+                    <h5 class="progress-tittle"><i class="fa-brands fa-bootstrap"></i> BOOTSTRAP</h5>
+                    <div class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-label="Default striped example"
+                        aria-valuemin="0" aria-valuemax="100" style="width: 60%" aria-valuenow="60">60%
+                    </div>         
+                    </div>
+
+
+                    <h5 class="progress-tittle"> <img src="/imagenes//ts.png"  alt="icono de typescript"> TYPESCRIPT</h5>
+                    <div class="progress">
+                     <div class="progress-bar progress-bar-striped" role="progressbar" aria-label="Default striped example"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 60%" aria-valuenow="60">60%
+                    </div>         
+                    </div>
+
+
+                    <h5 class="progress-tittle"><i class="fa-brands fa-angular"></i> ANGULAR</h5>
+                    <div class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-label="Default striped example"
+                        aria-valuemin="0" aria-valuemax="100" style="width: 60%" aria-valuenow="60">60%
+                    </div>         
+                    </div>
+                </div>
+
+
+            </div>
+                  <!--Backend-->
+            
+
+                  <div class="row col-md-4">
+                    <h3 class="skill-tittle">Back-End</h3></div>
+
+            <div class="row justify-content-evenly">
+                <div class="frontend col-md-4 ">
+
+
+                    <h5 class="progress-tittle"><i class="fa-brands fa-java"></i> JAVA</h5>
+                    <div class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-label="Default striped example"
+                        aria-valuemin="0" aria-valuemax="100" style="width: 60%" aria-valuenow="60">60%
+                    </div>      
+                    </div>
+
+                </div>
+                    <div class="frontend col-md-4 ">
+                    <h5 class="progress-tittle"><i class="fa-solid fa-database"></i> MYSQL</h5>
+                    <div class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-label="Default striped example"
+                        aria-valuemin="0" aria-valuemax="100" style="width: 60%" aria-valuenow="60">60%
+                    </div>         
+                    </div>
+
+
+
+                </div>
+
             </div>
 
         </section>
 
 
-
-
+ 
 
 
 
@@ -131,7 +216,7 @@
 
 
 
-            
+
 
 
 
@@ -147,6 +232,22 @@
             </ul>
             <p>
         </Section>
+
+
+
+        <!--Proyectos-->
+        <section class="proyectos text-center">
+            <h3>Proyectos</h3>
+            <P>
+            <ul>
+                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique temporibus ea, nesciunt quis
+                    libero
+                    accusamus cumque sunt numquam earum ducimus qui quidem autem at eos inventore cupiditate asperiores
+                    error voluptate.</li>
+            </ul>
+            <p>
+        </Section>
+
 
 
         <!--Footer-->
