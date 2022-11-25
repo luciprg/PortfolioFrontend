@@ -1,7 +1,7 @@
 /*//Styles //*/
 
 body{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: aliceblue;
 }
 
@@ -28,6 +28,10 @@ body{
 
 /*//main//*/
 
+main{
+    margin-top: 100px;
+}
+
 section{
     margin-bottom: 100px;
 }
@@ -36,12 +40,15 @@ section{
     border-radius: 20px;
     border-style: dotted;
     border-color: rgb(43, 205, 226);
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .skill-tittle{
+    margin-top: 3em;
     margin-bottom: 2em;
-    margin-top: 2em;
     margin-left: 4em;
+   
 }
 
 .progress{
